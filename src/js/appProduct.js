@@ -51,6 +51,7 @@ document.getElementById('form_product')
         } else {
             const product = new Product(nome, price, date);    
             const listItensAdd = new ActionApp() 
-            listItensAdd.addProduct(product)
+            listItensAdd.addProduct(product) 
+            document.getElementById('form_product').reset();
         }        
     }); 
