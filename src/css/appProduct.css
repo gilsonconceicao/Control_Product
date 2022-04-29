@@ -183,6 +183,31 @@ input::placeholder {
     font-size: 30px;
 }
 
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    background-color: #3030302b;
+    text-decoration: none;
+    border-radius: 10px ;
+    filter: drop-shadow(0 0 0.3em rgba(0, 0, 0, 0.332));
+    color: #f6f6f6;
+    display: block;
+    max-width: 200px;
+    margin: 10px auto ;
+    padding: 10px;
+}
+
+footer a:hover {
+    background-color: #3030309c;
+}
+
+#iconGithub {
+    font-size: 30px;
+}
+
 @media screen and (max-width: 760px) {
     .textInfo {
         display: block;
